@@ -9,15 +9,6 @@ import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
 import java.util.Vector;
 
 public class MainActivity extends AppCompatActivity {
@@ -39,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         String st = "Invalid Username / Password";
 
 
-        
+
 
         if (un.equals("")) { // invalid username
 //            Toast.makeText(this,  "Enter valid username",Toast.LENGTH_LONG).show();
